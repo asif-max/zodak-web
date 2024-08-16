@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
 import Navbar from "./Navbar";
 import bg1 from "../assets/zodak/vectors/Asset11.png";
 import Line from "../assets/zodak/shapes/Asset 33.svg";
@@ -12,6 +13,11 @@ import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import Slider from "react-slick";
 
 const Header = () => {
+  useEffect(() => {
+    // Simple GSAP animation for testing
+    gsap.fromTo(".animate", { opacity: 0, y: -50 }, { opacity: 1, y: 0, duration: 1 });
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -23,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-screen border-8 relative overflow-hidden">
+    <div className="h-screen  relative overflow-hidden">
       <Navbar />
       <div className="flex flex-col md:flex-row">
         <img
@@ -32,12 +38,12 @@ const Header = () => {
           className="pt-[10%] w-[35%] h-[89%] absolute left-0 top-24"
         />
         <div className="relative h-screen flex flex-col items-start justify-center gap-8 md:w-4/6 pl-[7%] mt-8">
-          <div className="absolute top-0 right-0 p-1 mx-6 flex h-36 justify-end bg-[#FF6347] text-[#FF6347]">
+          <div className="absolute top-0 right-0 p-1 mx-6 flex h-36 justify-end bg-[#FF6347] text-[#FF6347] animate">
             hi
           </div>
           <div className="flex flex-row justify-between pb-[25px]">
             <div>
-              <div className="tracking-[0.4px] space-y-8 w-[80%] truncate">
+              <div className="tracking-[0.4px] space-y-8 w-[80%] truncate animate">
                 <p className="text-gray-500">Why Zodak</p>
                 <p className="text-gray-500 w-5/6">
                   Zodak, as 'Advanced Safety Solutions' suppliers in the Kingdom keeps high quality
@@ -49,13 +55,13 @@ const Header = () => {
                   quality of services.
                 </p>
               </div>
-              <button className="ml-6 mt-24 relative bg-primary px-4 py-2 text-lg font-semibold border border-primary rounded-md text-white transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-white hover:text-primary hover:font-bold">
+              <button className="ml-6 mt-24 relative bg-primary px-4 py-2 text-lg font-semibold border border-primary rounded-md text-white transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-white hover:text-primary hover:font-bold animate">
                 Read more
               </button>
             </div>
           </div>
           <div className="w-full flex justify-end items-center pt-16 gap-4 my-16">
-            <div className="flex flex-row justify-between space-x-4 text-etrabold">
+            <div className="flex flex-row justify-between space-x-4 text-etrabold animate">
               <FontAwesomeIcon
                 icon={faSquareFacebook}
                 className="text-2xl text-black hover:text-blue-600 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110 hover:rotate-12"
@@ -74,16 +80,16 @@ const Header = () => {
         <div className="flex items-start mt-8 flex-col h-2/6">
           <Slider {...settings} className="relative w-full md:w-[465px] h-[44rem]">
             <div>
-              <img src={slide1} alt="Slide 1" className="w-full h-full object-cover" />
+              <img src={slide1} alt="Slide 1" className="w-full h-full object-cover animate" />
             </div>
             <div>
-              <img src={slide2} alt="Slide 2" className="w-full h-full object-cover" />
+              <img src={slide2} alt="Slide 2" className="w-full h-full object-cover animate" />
             </div>
             <div>
-              <img src={slide3} alt="Slide 3" className="w-full h-full object-cover" />
+              <img src={slide3} alt="Slide 3" className="w-full h-full object-cover animate" />
             </div>
             <div>
-              <img src={slide4} alt="Slide 4" className="w-full h-full object-cover" />
+              <img src={slide4} alt="Slide 4" className="w-full h-full object-cover animate" />
             </div>
           </Slider>
           <img
