@@ -24,8 +24,8 @@ const Fourthpage = () => {
           BRANDS WE ARE ASSOCIATED WITH
         </p>
       </div>
-      <div className="flex justify-start items-center border border-red-600 h-full">
-        <div className="h-5/6 border border-orange-600 flex justify-start items-center">
+      <div className="flex justify-start items-center h-full">
+        <div className="h-5/6  flex justify-start items-center">
           <img src={worldmap} alt="" className="absolute w-[55%]" />
           <div className="relative z-10 mt-[-190px] flex justify-center px-[26rem] items-center">
             <img src={locationSign} alt="" className="absolute w-[4%]" />

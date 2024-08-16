@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Add slick-carousel CSS */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 body, html, #root {
   margin: 0;
@@ -9,6 +12,17 @@ body, html, #root {
   height: 100%;
   width: 100%;
 }
+
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif; /* Apply Montserrat globally */
+}
+
+/* Ensure that slick-carousel styles don't affect global styling */
+.slick-carousel {
+  /* Add any necessary adjustments here */
+}
+
+.container {
+  width: 100vw; /* Restrict width to viewport width */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }

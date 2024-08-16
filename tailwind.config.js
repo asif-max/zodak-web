@@ -6,10 +6,10 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Montserrat", "sans-serif"], // Adds Montserrat to the default sans font family
-      },letterSpacing: {
+      },
+      letterSpacing: {
         extremeTight: '-0.09em', // Custom maximum negative value
       },
-
       colors: {
         primary: "#FF6347",
       },

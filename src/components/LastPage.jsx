@@ -60,7 +60,7 @@ const LastPage = () => {
             <FaTwitter  className="text-2xl text-black text-shadow-lg hover:font-extrabold cursor-pointer hover:text-blue-600"/>
             <FaInstagram  className="text-2xl text-black text-shadow-lg hover:text-pink-700 cursor-pointer "/>
             <FaLinkedinIn  className="text-2xl text-black text-shadow-lg hover:text-blue-700 cursor-pointer"/></div>
-            <p className="flex justify-center items-center text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, excepturi.</p>
+            <p className="flex justify-center items-center text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, excepturi.</p>
             <div className="flex place-items-end"><img src={lastshape} alt="lastshape" className="absolute"/></div>
             </div>
     </div>

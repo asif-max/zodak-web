@@ -8,8 +8,8 @@ import bg6 from '../assets/zodak/shapes/Asset 31.svg';
 
 const Secondpage = () => {
   return (
-    <div className="h-screen ">
-      <div className='flex justify-end   border-green-500 '>
+    <div className="h-screen border-8 ">
+      <div className='flex justify-end    '>
         <img src={bgshape} alt="" className='absolute w-[33.5%]  ' />
       </div>
       <img
@@ -18,9 +18,9 @@ const Secondpage = () => {
         className="absolute w-[30%] h-[75%] bg-cover bg-center mt-48 "
       />
       
-      <div className="flex justify-center items-center border-red-950 border-2 h-screen">
+      <div className="flex justify-center items-center  h-screen">
         
-        <div className="flex  w-9/12 h-full  border border-green-800 items-center big-container space-x-10">
+        <div className="flex  w-9/12 h-full   items-center big-container space-x-10">
           <div className="flex flex-col space-y-4 image-container1">
             <div className="flex flex-row space-x-4 justify-center">
               <img

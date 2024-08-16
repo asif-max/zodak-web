@@ -8,6 +8,10 @@ import Thirdpage from './components/Thirdpage'
 import Fourthpage from './components/Fourthpage'
 import Fifthpage from './components/Fifthpage'
 import LastPage from './components/LastPage'
+// index.js or App.js
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 
 function App() {

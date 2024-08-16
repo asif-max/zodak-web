@@ -26,7 +26,7 @@ const Navbar = () => {
 
       {/* Search Icon */}
       <div className="flex items-center">
-        <FaSearch className="text-3xl text-primary w-[19px] cursor-pointer" />
+        <FaSearch className="text-3xl text-primary w-[19px] cursor-pointer hover:text-[#f27f6b]" />
       </div>
     </div>
   );
