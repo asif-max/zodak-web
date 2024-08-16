@@ -21,7 +21,7 @@ function App() {
     <div className=''>
       <Header/>
 
-      {/* <Secondpage/> */}
+      <Secondpage/>
       <Thirdpage/>
       <Fourthpage/>
       <Fifthpage/>

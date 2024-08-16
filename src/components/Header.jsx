@@ -23,15 +23,15 @@ const Header = () => {
   };
 
   return (
-    <div className="h-screen border-8">
+    <div className="h-screen border-8 relative overflow-hidden"> {/* Added overflow-hidden */}
       <Navbar />
 
       <div className="flex">
         <img
           src={bg1}
           alt="bg1"
-          className="pt-[10%] w-[35%] h-[89%] absolute bg-right-top"
-        />
+          className="pt-[10%] w-[35%] h-[89%] absolute right-0 top-0"
+        /> {/* Corrected absolute positioning */}
         <div className="relative h-screen flex flex-col items-start justify-center gap-8 w-4/6 pl-[7%] mt-8">
           <div className="absolute top-0 right-0 p-1 mx-6 flex h-36 justify-end bg-[#FF6347] text-[#FF6347]">
             hi
@@ -73,7 +73,7 @@ const Header = () => {
         </div>
 
         <div className="flex items-start mt-8 flex-col h-2/6">
-          <Slider {...settings} className="relative w-[479px] h-[44rem]">
+          <Slider {...settings} className="relative w-[465px] h-[44rem]">
             <div>
               <img src={slide1} alt="Slide 1" className="w-full h-full object-cover" />
             </div>

@@ -8,7 +8,7 @@ import bg6 from '../assets/zodak/shapes/Asset 31.svg';
 
 const Secondpage = () => {
   return (
-    <div className="h-screen border-8 ">
+    <div className="h-screen  ">
       <div className='flex justify-end    '>
         <img src={bgshape} alt="" className='absolute w-[33.5%]  ' />
       </div>
