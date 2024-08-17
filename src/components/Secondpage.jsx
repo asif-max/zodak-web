@@ -23,18 +23,16 @@ import icon1 from '../assets/zodak/1x/Asset 2.png';
 const Secondpage = () => {
   return (
     <div className="h-screen  ">
-      <div className='flex justify-end    '>
-        <img src={bgshape} alt="" className='absolute w-[32.85%] mt-[-8px] mr-2 ' />
-      </div>
+      
       <img
         src={bg1}
         alt="bg1"
-        className="absolute w-[30%] h-[75%] bg-cover bg-center mt-48 "
+        className="absolute w-[30%]  h-[75%] bg-cover bg-center mt-48 "
       />
       
       <div className="flex justify-center items-center  h-screen">
         
-        <div className="flex  w-9/12 h-full   items-center big-container space-x-10">
+        <div className="flex  w-9/12 h-full p-[10%]  items-center big-container space-x-10">
           <div className="flex flex-col space-y-4 image-container1">
             <div className="flex flex-row space-x-4 justify-center">
               <img

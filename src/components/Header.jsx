@@ -37,7 +37,7 @@ const Header = () => {
           alt="bg1"
           className="pt-[10%] w-[35%] h-[89%] absolute left-0 top-24"
         />
-        <div className="relative h-screen flex flex-col items-start justify-center gap-8 md:w-4/6 pl-[7%] mt-8">
+        <div className="relative h-screen flex flex-col items-start justify-center gap-[4%] md:w-4/6 pl-[7%] mt-8">
           <div className="absolute top-0 right-0 p-1 mx-6 flex h-36 justify-end bg-[#FF6347] text-[#FF6347] animate">
             hi
           </div>
