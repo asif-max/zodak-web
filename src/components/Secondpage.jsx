@@ -24,7 +24,7 @@ const Secondpage = () => {
   return (
     <div className="h-screen  ">
       <div className='flex justify-end    '>
-        <img src={bgshape} alt="" className='absolute w-[33.5%]  ' />
+        <img src={bgshape} alt="" className='absolute w-[32.85%] mt-[-8px] mr-2 ' />
       </div>
       <img
         src={bg1}

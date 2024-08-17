@@ -15,8 +15,8 @@ const brandLogos = [brand1, brand2, brand3, brand4, brand5, brand6];
 const Fourthpage = () => {
   return (
     <div className="pt-32 h-screen">
-      <div className="flex flex-col items-start px-24">
-        <img src={chatImg} alt="chat" className="h-[74px] absolute" />
+      <div className="flex flex-col items-middle px-24">
+        <img src={chatImg} alt="chat" className="h-[82px] absolute" />
         <p
           className="relative text-xl mt-[22px] mx-2 text-white font-bold tracking-extremeTight"
           style={{ transform: "scaleY(1.5)" }}
