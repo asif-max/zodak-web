@@ -22,4 +22,8 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+  .slick-dots {
+    display: none !important;
+  }
+  
   

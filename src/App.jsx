@@ -20,14 +20,14 @@ function App() {
 
   return (
     <div className=''>
-      <Header/>
+      <Firstpage/>
 
       <Secondpage/>
       <Thirdpage/>
       <Fourthpage/>
       <Fifthpage/>
       <LastPage/>
-      <Firstpage/>
+      
     </div>
      
   )
