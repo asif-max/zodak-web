@@ -30,7 +30,7 @@ function App() {
       <Fifthpage/>
       <LastPage/>
       {/* <NextPage/> */}
-      <Tempage/>
+      {/* <Tempage/> */}
     </div>
      
   )
