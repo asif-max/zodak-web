@@ -95,7 +95,7 @@ const Header = () => {
           <img
             src={Line}
             alt="Line"
-            className="absolute w-1/6 h-5/6 mt-[278px]"
+            className="relative  w-1/6 h-5/6 mt-[278px]"
           />
         </div>
       </div>

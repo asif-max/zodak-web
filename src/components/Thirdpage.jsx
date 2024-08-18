@@ -67,14 +67,14 @@ const Thirdpage = () => {
   };
 
   return (
-    <div className="relative flex">
+    <div className="relative flex h-screen">
       <img
         src={rulingImg}
         alt="Ruling Image"
         className="w-[60%] h-screen object-cover brightness-50"
       />
-      <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center pr-[30%] px-10 z-10">
-        <div className="text-white text-end">
+      <div className="absolute top-0 left-0 w-full h-4/6 flex items-end justify-center pr-[30%] px-10 z-10">
+        {/* <div className="text-white text-end">
           <h1 className="text-7xl tracking-wider font-bold">ZODAK SAFETY</h1>
           <h2 className="text-8xl font-bold">
             <span className="text-8xl">GLOVES</span>
@@ -82,6 +82,12 @@ const Thirdpage = () => {
           </h2>
           <h3 className="text-7xl tracking-wider font-bold">EXCEPTIONAL</h3>
           <h4 className="text-7xl tracking-wider font-bold">PROTECTION</h4>
+        </div> */}
+        <div className="text-white text-end text-4xl font-bold">
+          <h1>ZODAK SAFETY</h1>
+          <h3>GLOVES GIVE</h3>
+          <h4>EXCEPTIONAL PROTECTION</h4>
+          
         </div>
       </div>
       <div className="w-full h-screen relative">
