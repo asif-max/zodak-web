@@ -19,7 +19,7 @@ const Tempage = () => {
       </div>
       <div className=" w-1/2 relative  flex justify-center items-center">
         <img src={spyral} alt="" className="h-4/6 absolute object-cover " />
-        <div className="absolute \ w-[55%]  imagecontainer gap-[1px]  border-black flex flex-col">
+        <div className="absolute \ w-[54%]  imagecontainer gap-[1px]  border-black flex flex-col">
           <div className="flex flex-row justify-between">
             <img
               src={bendImg1}
