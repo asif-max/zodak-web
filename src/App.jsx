@@ -25,7 +25,7 @@ function App() {
       <Firstpage/>
 
       <Secondpage/>
-      <Thirdpage/>
+      <Tempage/>
       <Fourthpage/>
       <Fifthpage/>
       <LastPage/>
