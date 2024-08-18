@@ -12,6 +12,7 @@ import LastPage from './components/LastPage'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Firstpage from './components/Firstpage'
+import NextPage from './components/NextPage'
 
 
 
@@ -27,7 +28,7 @@ function App() {
       <Fourthpage/>
       <Fifthpage/>
       <LastPage/>
-      
+      {/* <NextPage/> */}
     </div>
      
   )
