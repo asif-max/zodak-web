@@ -67,7 +67,7 @@ const Thirdpage = () => {
   };
 
   return (
-    <div className="relative flex h-screen">
+    <div className="relative flex min-h-screen">
       <img
         src={rulingImg}
         alt="Ruling Image"
