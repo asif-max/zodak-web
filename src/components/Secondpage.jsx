@@ -1,7 +1,7 @@
 import React from 'react';
 import bgshape from '../assets/zodak/shapes/Asset 27.svg'
 import bg1 from '../assets/zodak/vectors/Asset11.png';
-
+import { motion } from "framer-motion";
 
 
 import bg6 from '../assets/zodak/shapes/Asset 31.svg';
@@ -30,7 +30,7 @@ const Secondpage = () => {
       />
       <div className="flex justify-center items-center h-full">
         <div className="flex w-9/12 h-full p-[10%] items-center space-x-10">
-          <div className="flex flex-col space-y-4">
+          <motion.div whileInView={{ opacity: 1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.5}} className="flex flex-col space-y-4">
             <div className="flex flex-row space-x-4 justify-center">
               <img
                 src={bg3}
@@ -55,8 +55,8 @@ const Secondpage = () => {
                 className="relative w-[50%] bg-cover bg-center transition-transform duration-300 hover:scale-105"
               />
             </div>
-          </div>
-          <div className="flex flex-col space-y-4">
+          </motion.div>
+          <motion.div whileInView={{ opacity: 1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5}} className="flex flex-col space-y-4">
             <div className="flex flex-row space-x-4 justify-center">
               <img
                 src={bg7}
@@ -81,7 +81,7 @@ const Secondpage = () => {
                 className="relative w-[50%] bg-cover bg-center transition-transform duration-300 hover:scale-105"
               />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

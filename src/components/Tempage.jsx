@@ -1,6 +1,7 @@
 import React from "react";
 import rulingImg from "../assets/zodak/images/Asset 3.png";
 import spyralimage from "../assets/zodak/images/spyralimage.png";
+import { motion } from "framer-motion";
 
 const Tempage = () => {
   return (
@@ -13,9 +14,9 @@ const Tempage = () => {
         </h1>
       </div>
       <div className="w-1/2 relative flex justify-center items-end">
-        <div className="absolute top-[23%] left-1/2 transform -translate-x-1/2 -translate-y-[120%] z-10 text-center font-semibold text-2xl text-black">
+        <motion.div  className="absolute top-[23%] left-1/2 transform -translate-x-1/2 -translate-y-[120%] z-10 text-center font-semibold text-2xl text-black">
          <span className="text-primary">SAFETY </span>  SOLUTIONS <br /> ACROSS INDUSTRIES
-        </div>
+        </motion.div>
         <img
           src={spyralimage}
           alt=""

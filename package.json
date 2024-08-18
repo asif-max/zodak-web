@@ -16,6 +16,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "framer-motion": "^11.3.28",
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -37,5 +38,20 @@
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.9",
     "vite": "^5.4.0"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "author": "asif",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asif-max/zodak-web.git"
+  },
+  "keywords": [
+    "zodak"
+  ],
+  "bugs": {
+    "url": "https://github.com/asif-max/zodak-web/issues"
+  },
+  "homepage": "https://github.com/asif-max/zodak-web#readme"
 }
