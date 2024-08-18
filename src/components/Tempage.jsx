@@ -19,12 +19,12 @@ const Tempage = () => {
       </div>
       <div className=" w-1/2 relative flex justify-center items-center">
         <img src={spyral} alt="" className="h-4/6 absolute object-cover " />
-        <div className="absolute \ w-[56%]  imagecontainer  border-black flex flex-col">
+        <div className="absolute \ w-[56%]  imagecontainer gap-[1px]  border-black flex flex-col">
           <div className="flex flex-row justify-between">
             <img
               src={bendImg1}
               alt=""
-              className=" object-cover bg-center w-36  h-full rounded-tl-full rounded-bl-full rounded-br-full"
+              className=" object-cover bg-center w-[143px]  h-full rounded-tl-full rounded-bl-full rounded-br-full"
             />{" "}
             <div className="flex flex-col items-center justify-center  ">
             <p className="font-bold text-primary text-sm">sample heading</p>
@@ -40,14 +40,14 @@ const Tempage = () => {
             <img
               src={bendImg1}
               alt=""
-              className=" object-cover bg-center w-36  h-full rounded-bl-full rounded-br-full rounded-tr-full"
+              className=" object-cover bg-center w-[143px]  h-full rounded-bl-full rounded-br-full rounded-tr-full"
             />{" "}
           </div>
           <div className="flex flex-row justify-between">
             <img
               src={bendImg1}
               alt=""
-              className=" object-cover bg-center w-36  h-full rounded-tl-full rounded-bl-full rounded-br-full"
+              className=" object-cover bg-center w-[143px]  h-full rounded-tl-full rounded-bl-full rounded-br-full"
             />{" "}
             <div className="flex flex-col items-center justify-center">
               <p className="font-bold text-primary text-sm">sample heading</p>
@@ -63,7 +63,7 @@ const Tempage = () => {
             <img
               src={bendImg1}
               alt=""
-              className=" object-cover bg-center w-36  h-full rounded-bl-full rounded-br-full rounded-tr-full"
+              className=" object-cover bg-center w-[143px]  h-full rounded-bl-full rounded-br-full rounded-tr-full"
             />{" "}
           </div>
         </div>
