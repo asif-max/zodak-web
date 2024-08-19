@@ -1,6 +1,6 @@
 import React from "react";
 import bg1 from "../assets/zodak/vectors/Asset11.png";
-import shoeImg from '../assets/zodak/images/Asset 8 copy.png'
+import shoeImg from '../assets/zodak/images/footer.jpg'
 import {
   FaFacebookF,
   FaTwitter,
@@ -13,7 +13,7 @@ import lastshape from '../assets/zodak/shapes/Asset 39.svg'
 
 const LastPage = () => {
   return (
-    <div className="h-screen  t-[7%]">
+    <div className="h-screen bg-white t-[7%]">
       <img
         src={bg1}
         alt="bg1"

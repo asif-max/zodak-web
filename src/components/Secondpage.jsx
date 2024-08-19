@@ -1,28 +1,21 @@
 import React from 'react';
-import bgshape from '../assets/zodak/shapes/Asset 27.svg'
-import bg1 from '../assets/zodak/vectors/Asset11.png';
 import { motion } from "framer-motion";
-
-
-import bg6 from '../assets/zodak/shapes/Asset 31.svg';
+import bg1 from '../assets/zodak/vectors/Asset11.png';
 import bg3 from '../assets/zodak/1x/Asset 2.png';
 import bg4 from '../assets/zodak/1x/Asset 3.png';
+import bg5 from '../assets/zodak/1x/Asset 6.png';
+import bg6 from '../assets/zodak/shapes/Asset 31.svg';
 import bg7 from '../assets/zodak/1x/Asset 4.png';
 import bg8 from '../assets/zodak/1x/Asset 5.png';
-import bg5 from '../assets/zodak/1x/Asset 6.png';
 import bg9 from '../assets/zodak/1x/Asset 7.png';
-import icon8 from '../assets/zodak/1x/Asset 8.png';
-import icon1 from '../assets/zodak/1x/Asset 2.png';
 
-
-
-
-
-
+const iconVariants = {
+  animate: { y: [10, -10] }, // Up-and-down motion
+};
 
 const Secondpage = () => {
   return (
-    <div className="h-screen relative">
+    <div className="h-screen relative bg-white">
       <img
         src={bg1}
         alt="bg1"
@@ -30,7 +23,22 @@ const Secondpage = () => {
       />
       <div className="flex justify-center items-center h-full">
         <div className="flex w-9/12 h-full p-[10%] items-center space-x-10">
-          <motion.div whileInView={{ opacity: 1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.5}} className="flex flex-col space-y-4">
+          <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            animate="animate"
+            variants={iconVariants}
+            transition={{
+              duration: 0.5, // Duration for whileInView animation
+              ease: "easeInOut",
+              y: {
+                duration: 3, // Duration for one complete up-down cycle
+                repeat: Infinity,
+                repeatType: "reverse",
+              },
+            }}
+            className="flex flex-col space-y-4"
+          >
             <div className="flex flex-row space-x-4 justify-center">
               <img
                 src={bg3}
@@ -51,21 +59,36 @@ const Secondpage = () => {
               />
               <img
                 src={bg9}
-                alt="bg6"
+                alt="bg9"
                 className="relative w-[50%] bg-cover bg-center transition-transform duration-300 hover:scale-105"
               />
             </div>
           </motion.div>
-          <motion.div whileInView={{ opacity: 1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5}} className="flex flex-col space-y-4">
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            animate="animate"
+            variants={iconVariants}
+            transition={{
+              duration: 0.5, // Duration for whileInView animation
+              ease: "easeInOut",
+              y: {
+                duration: 3, // Duration for one complete up-down cycle
+                repeat: Infinity,
+                repeatType: "reverse",
+              },
+            }}
+            className="flex flex-col space-y-4"
+          >
             <div className="flex flex-row space-x-4 justify-center">
               <img
                 src={bg7}
-                alt="bg3"
+                alt="bg7"
                 className="relative w-[50%] bg-cover bg-center transition-transform duration-300 hover:scale-105"
               />
               <img
                 src={bg8}
-                alt="bg4"
+                alt="bg8"
                 className="relative w-[50%] bg-cover bg-center transition-transform duration-300 hover:scale-105"
               />
             </div>

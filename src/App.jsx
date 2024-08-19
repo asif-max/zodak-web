@@ -17,6 +17,7 @@ import Tempage from './components/Tempage'
 
 
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -31,6 +32,7 @@ function App() {
       <LastPage/>
       {/* <NextPage/> */}
       {/* <Tempage/> */}
+      
     </div>
      
   )

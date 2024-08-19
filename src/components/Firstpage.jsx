@@ -33,10 +33,11 @@ const Firstpage = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: false,
   };
 
   return (
-    <div className="h-screen  relative w-screen">
+    <div className="h-screen relative w-screen bg-white">
       <img
         src={bg1}
         alt="bg1"
@@ -46,10 +47,10 @@ const Firstpage = () => {
         <Navbar />
         <div className=" flex flex-row ml-[7%]">
           <div className="flex flex-col justify-between w-[63%] ">
-            <div className="flex justify-end">
+            <div className="flex justify-end ">
               <p className="bg-primary py-[6%] px-1 text-primary">hi</p>
             </div>
-            <div className="h-3/6 flex flex-col justify-around">
+            <div className="h-3/6 flex flex-col  justify-around">
               <motion.p
                 variants={container(0)}
                 initial="hidden"
@@ -68,20 +69,23 @@ const Firstpage = () => {
                 dedicated to providing advanced technical support to the
                 customers who would like to improve their quality of services.
               </motion.p>
-              <button className="relative bg-primary px-2 w-32 py-2 text-lg font-semibold border border-primary rounded-md text-white transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-white hover:text-primary hover:font-bold animate">
+              <button className="relative bg-primary px-2 w-32 py-2 text-lg font-semibold border border-primary rounded-md text-white transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-white hover:text-primary hover:font-bold animate btn btn-active">
                 Read more
               </button>
             </div>
             <div className="flex flex-row items-center mb-14">
-              <div className="flex flex-row space-x-4 px-2">
-                <FontAwesomeIcon
+              <motion.div variants={container(1)}
+                initial="hidden"
+                animate="visible" className="flex flex-row space-x-4 px-2">
+                
+                <FontAwesomeIcon 
                   icon={faSquareFacebook}
                   className="text-2xl text-black hover:text-blue-600 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110 hover:rotate-12"
                 />
                 <FaTwitter className="text-2xl text-black text-shadow-lg hover:font-extrabold cursor-pointer hover:text-blue-600 transition-transform duration-300 ease-in-out transform hover:scale-110 hover:rotate-12" />
                 <FaInstagram className="text-2xl text-black text-shadow-lg hover:text-pink-700 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110 hover:rotate-12" />
                 <FaLinkedinIn className="text-2xl text-black text-shadow-lg hover:text-blue-700 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110 hover:rotate-12" />
-              </div>
+              </motion.div>
               <svg className="w-full h-2 pt-[6px] mb-[4px]">
                 <line
                   x1="0"

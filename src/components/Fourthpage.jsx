@@ -14,7 +14,7 @@ const brandLogos = [brand1, brand2, brand3, brand4, brand5, brand6];
 
 const Fourthpage = () => {
   return (
-    <div className="pt-32 h-screen">
+    <div className="pt-32 h-screen bg-white">
       <div className="flex flex-col items-middle px-24">
         <img src={chatImg} alt="chat" className="h-[82px] absolute" />
         <p

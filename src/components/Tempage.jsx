@@ -4,22 +4,12 @@ import spyralimage from "../assets/zodak/images/spyralimage.png";
 import { motion,delay } from "framer-motion";
 
 
-const container = (delay) => ({
-  hidden: { x: -100, opacity: 0 },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.5,
-      delay: delay,
-    },
-  },
-});
+
 
 
 const Tempage = () => {
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row bg-white">
       <div className="relative h-screen w-10/12">
         <img src={rulingImg} alt="" className="h-full object-cover brightness-50" />
         <h1 className="absolute top-1/2 left-[29%] text-4xl text-end font-bold text-white">
