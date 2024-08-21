@@ -31,7 +31,7 @@ const Fourthpage = () => {
             <img src={locationSign} alt="" className="absolute w-[4%]" />
           </div>
         </div>
-        <div className="flex flex-wrap justify-center space-x-4 looping">
+        <div className="flex flex-wrap  justify-center space-x-4 looping">
           {brandLogos.map((logo, index) => (
             <div key={index} className="relative m-4">
               <img src={frame1} alt="frame" className="w-[200px]" />
