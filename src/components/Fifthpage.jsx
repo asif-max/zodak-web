@@ -36,7 +36,7 @@ const Fifthpage = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 0.5 }}
-                className="h-[90%] font-bold text-2xl mt-[-25px] ml-[-35px]" // Adjust the mt value to move the text upward
+                className="h-[90%] font-bold text-2xl mt-[-25px] " // Adjust the mt value to move the text upward
               >
                 TOP ACHIEVEMENTS
               </motion.p>
